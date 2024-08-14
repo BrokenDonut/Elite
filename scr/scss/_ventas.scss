@@ -1,0 +1,138 @@
+.main-mid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1250px;
+}
+.ventas{
+    background-image: url(/img/patron-fondo.svg);
+    background-color: #3d378c;
+    background-size: 225px;
+    height: 380px;
+}
+.ventas-tittle{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    line-height: 40px;
+}
+.ventas-tittle h2{
+    font-size: 30px;
+}
+.ventas-promo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.promo1 {
+    display: grid;
+    grid-template-rows: 620px 130px 200px;
+    background-image: url(/img/img-urbanizacion-las-dunas.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.promo1 h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #01f7d0;
+    width: 200px;
+    height: 33px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.promo1 img{
+    justify-self: center;
+    border-radius: 100%;
+    border: 10px solid #f5f9ff;
+}
+.promo1-info{
+    justify-self: center;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-promo{
+    color: #524c9b;
+}
+.botom{
+    text-decoration: none;
+    background-color: #363084;
+    color: white;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border: none;
+}
+.botom:hover{
+    background-color: #524c9b;
+}
+.promo2 {
+    display: grid;
+    grid-template-rows: 620px 130px 200px;
+    background-image: url(/img/img-proyecto-09.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.promo2 h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00c0e0;
+    width: 200px;
+    height: 33px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.promo2 img{
+    justify-self: center;
+    border-radius: 100%;
+    border: 10px solid #f5f9ff;
+}
+.promo2-info{
+    justify-self: center;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.promo3 {
+    display: grid;
+    grid-template-rows: 620px 130px 200px;
+    background-image: url(/img/img-proyecto-01.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.promo3 h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00c0e0;
+    width: 200px;
+    height: 33px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.promo3 img{
+    justify-self: center;
+    border-radius: 100%;
+    border: 10px solid #f5f9ff;
+}
+.promo3-info{
+    justify-self: center;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}

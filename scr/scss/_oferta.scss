@@ -1,0 +1,39 @@
+.oferta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 850px;
+    align-items: center;
+}
+.oferta1{
+    justify-self: end;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+}
+.oferta1 h3{
+    font-size: 22px;
+    color: #3d378c;
+    font-weight: 700;
+}
+.oferta2{
+    justify-self: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+}
+.oferta2 h3{
+    font-size: 22px;
+    color: #3d378c;
+    font-weight: 700;
+}
+.oferta3{
+    justify-self: start;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+}
+.oferta3 h3{
+    font-size: 22px;
+    color: #3d378c;
+    font-weight: 700;
+}

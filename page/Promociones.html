@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body style="background-color: #f5f9ff;">
+    <div class="float">
+        <div class="textfloat" id="infowsp">
+            <img class="iconfloat" src="/img/icono-persona-chat.jpg" alt="">
+            <img class="Xfloat" id="botom" onclick="ocultar();" src="/img/icon-cerrar-chat.svg" alt="">
+            <a href="">¡Solo por hoy! Solicita tu bono de descuento aquí.</a>
+        </div>
+        <div class="wspfloat" id="botom" onclick="mostrar();">
+            <img src="/img/icon-chat-whatsapp.svg" alt="">
+        </div>
+    </div>
+    <nav>
+        <div class="nave">
+            <a href="/index.html"><img src="/img/6e2e80ac245ea-9506.svg" alt=""></a>
+            <div class="opciones1">
+                <ul>
+                    <li><a href="/page/Promociones.html" class="text-c1">PROMOCIONES</a></li>
+                    <li><a href="./terreno.html" class="text-c2">VENDE TU TERRENO</a></li>
+                    <li><a href="/#form" class="text-c3">COTIZAR</a></li>
+                </ul>
+            </div>
+            <div class="opciones2">
+                <ul>
+                    <li><a class="hoverA" href="/page/proyectos.html">Proyectos</a></li>
+                    <li><a class="hoverA" href="/page/blog.html">Blog</a></li>
+                    <li><a class="hoverA" href="/page/nosotros.html">Nosotros</a></li>
+                    <li><a class="hoverA" href="/page/contacto.html">Contacto</a></li>
+                    <li><a class="hoverA" href="" class="F-color">f</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="fondo">
+            <div class="encabezado">
+                <h1>Encuentra la oferta que buscabas</h1>
+                <p>Adquirir tu terreno nunca fue más sencillo. Con las ofertas que tenemos para ti podrás hacerlo ahora mismo.</p>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="oferta">
+            <div class="oferta1">
+                <img src="/img/Promociones/img-promocion-03.jpg" alt="">
+                <h3>Adquiere tu lote hoy con S/ 100</h3>
+                <a href="" class="botom">Solicitar oferta</a>
+            </div>
+            <div class="oferta2">
+                <img src="/img/Promociones/img-promocion-02.jpg" alt="">
+                <h3>Adquiere tu lote sin intereses</h3>
+                <a href="" class="botom">Solicitar oferta</a>
+            </div>
+            <div class="oferta3">
+                <img src="/img/Promociones/img-promocion-01.jpg" alt="">
+                <h3>¡Regala un lote a mamá!</h3>
+                <a href="" class="botom">Solicitar oferta</a>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer1">
+            <img class="elite-w" src="/img/form/logo-elite-blanco.svg" alt="">
+            <div class="contacto">
+                <div>
+                    <img src="/img/form/icon-footer-telefono.svg" alt="">
+                    <span class="text-footer">986 622 211</span>
+                </div>
+                <div>
+                    <img src="/img/form/icon-footer-correo.svg" alt="">
+                    <span class="text-footer">contacto@proyectosinmobiliarioselite.com</span>
+                </div>
+            </div>
+            <div class="politicas">
+                <p><a class="text-footer" href="">Términos y condiciones</a></p>
+                <p><a class="text-footer" href="">Politicas de privacidad</a></p>
+                <p><a class="text-footer" href="">Uso de datos</a></p>
+                <p><a class="text-footer" href="">Politica de cookies</a></p>
+            </div>
+            <div class="ubicacion1">
+                <p class="text-footer" >Oficina Las Castellanas</p>
+                <p class="text-footer">Residencial San Martín A-118, Ica</p>
+                <p class="text-footer">(056) 624224</p>
+            </div>
+            <div class="ubicacion2">
+                <p class="text-footer">Oficina Las Dunas y Valle Ocucaje</p>
+                <p class="text-footer">Urb. Santa Rosa del Palmar, Calle Los Diamantes F-27, Ica</p>
+                <p class="text-footer">(056) 600090</p>
+            </div>
+        </div>
+        <div class="footer2">
+            <p>© 2023. PROYECTOS INMOBILIARIOS ÉLITE S.A.C. TODOS LOS DERECHOS RESERVADOS</p>
+            <p>DISEÑO DE PÁGINAS WEB</p>
+        </div>
+    </footer>
+    <script>
+        function mostrar(){
+            document.getElementById('infowsp').style.display = 'block';
+        }
+        function ocultar(){
+            document.getElementById('infowsp').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

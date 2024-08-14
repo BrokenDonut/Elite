@@ -1,0 +1,55 @@
+.float{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    margin: 40px;
+}
+.textfloat{
+    background-color: #00c0e0;
+    width: 260px;
+    height: 108px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    img:first-child{
+        position: absolute;
+        border-radius: 100%;
+        right: 12px;
+        top: -39px;
+        translate: -50%;
+        left: 50%;
+        border: solid 4px #00c0e0;
+    }
+    img:nth-child(2){
+        position: absolute;
+        left: 90%;
+        width: 12px;
+        top: 12px;
+        cursor: pointer;
+    }
+    a{
+        position: absolute;
+        text-align: center;
+        top: 23%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        color: white;
+        line-height: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
+.wspfloat{
+    background-color: #00c0e0;
+    width: 75px;
+    height: 75px;
+    justify-self: end;
+    border-radius: 100%;
+    cursor: pointer;
+    img{
+        width: 35px;
+        margin: 20px;
+    }
+}

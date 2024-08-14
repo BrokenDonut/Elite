@@ -1,0 +1,83 @@
+.info-nosotros{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px 200px 150px;
+    grid-row-gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.tittle-nosotros{
+    grid-column: 1/4;
+    text-align: center;
+    align-self: center;
+}
+.tittle-nosotros h3{
+    color: #524c9b;
+    font-size: 25px;
+    margin: 15px;
+}
+.tittle-nosotros p{
+    font-size: 14px;
+}
+.family-number{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    text-align: center;
+    align-self: center;
+    color: #3d378c;
+}
+.family-number .p1{
+    font-size: 86px;
+    font-weight: 700;
+}
+.family-number .p2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.family-number .p3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nosotros1{
+    background-color: #007ecc;
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    justify-self: end;
+    align-self: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    color: white;
+}
+.nosotros3{
+    background-color: #01f7d0;
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    justify-self: end;
+    align-self: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    color: white;
+}
+.nosotros4{
+    background-color: #3d378c;
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    justify-self: start;
+    align-self: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    color: white;
+}
+.nosotros2{
+    background-color: #00c0e0;
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    justify-self: start;
+    align-self: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    color: white;
+}

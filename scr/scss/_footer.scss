@@ -1,0 +1,44 @@
+.footer1{
+    background-color: #514d9b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 230px;
+}
+.elite-w{
+    align-self: center;
+    justify-self: center;
+    width: 139px;
+}
+.contacto{
+    align-self: center;
+}
+.contacto img{
+    width: 14px;
+}
+.contacto{
+    line-height: 30px;
+}
+.text-footer{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.politicas{
+    align-self: center;
+}
+.ubicacion1{
+    grid-column: 2/3;
+}
+.footer2{
+    background-color: #3d378c;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.footer2 p{
+    text-align: center;
+    align-self: center;
+}
